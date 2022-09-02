@@ -1,0 +1,7 @@
+import echo as print
+
+# main is the entry point for any bk script
+main :(args []string): {
+    # echo instead of print because bash
+    $print["hello", "world"]
+}

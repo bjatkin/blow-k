@@ -1,0 +1,202 @@
+import echo
+
+# script entry point
+main :(args:[]string): {
+    # use defaults
+    a:v2 
+
+    # set value
+    b:v2: {
+        x: 20
+        y: -5
+    }
+
+    # create an anonomouse v3
+    # type can be on a single line
+    b:<x:int:3; y:int; z:int>: {}
+
+    # prep to print hello
+    printHello:: echo["Hello"]
+
+    # print "Hello World"
+    $printHello["World"]
+
+    # get the users name
+    name :: askQuestion("what is your name?")
+
+    # print "Hello [name]"
+    $printHello[name]
+
+    # print "Goodbye [name]"
+    printHello[0] : "Goodbye"
+    $printHello[name]
+}
+
+# vector 2 type
+v2 :: <
+  x:int: 5 # default value of 5
+  y:int    # default value of 0
+  add:(vec:v2): {
+    me.x : me.x + vec.x
+    me.y : me.y + vec.y
+  }
+>
+
+# ask a question, get a response from std out
+# return the answer
+askQuestion:(ask string)|ans|<string>: {
+    $echo[ask + ":"]
+
+    # input is not requested until the ans value is needed
+    return ans
+}
+
+# example type for use later
+typeExample:int: 5
+
+allTypes:(str:string, i:int, b:bool)|read|<string>: {
+    # strings
+    sa:string
+    sb:string: "test"
+
+    # ints
+    ia:int
+    ib:int: 10
+
+    # bools
+    ba:bool
+    bb:int: true
+
+    # string array
+    asa:[]string
+    asb:[]string: ["hi", "hello", "howdy"]
+
+    # int array
+    aia:[]int
+    aib:[]int: [10, 5, -4]
+
+    # bool array
+    aba:[]bool
+    abb:[]bool: [true, true, false]
+
+    # struct array
+    asa:[]v2
+    asb:[]v2: [
+        {x:10, y:5},
+        {x:11, y:4},
+        {x:12, y:3},
+    ]
+
+    # types
+    tb:struct: <
+        type:int: typeExample # default type is the same as typeExample
+        name:string
+        fail:[]bool
+    >
+
+    # functions
+    outside :: 10
+    fb:(): {
+        # capture outside variables
+        $echo["outside is:", outside]
+    }
+
+    # cmds
+    ca:cmd # should this be allowed? no op command
+    cb:cmd:echo["Hello"] # cb is now the same as calling `echo Hello`
+}
+
+needPipe:: ()|in| {
+    $echo[in]
+}
+
+usePipe:: () {
+    $echo["hi"] |
+    needPipe()
+}
+
+arrayTest:: () {
+    a:[]int:[0, 1, 2, 3, 4]
+    a<-5 # append to the array
+    $echo[a[5]]
+
+    b :: a[:3] # sub array 
+    c :: a[2:] # sub array
+
+    d :: a-> # pop the last element off the array and return it
+    a<-[1,2,3] # append an array
+}
+
+cmdTest:: () {
+    hello:cmd: echo["hello"]
+    hello<-"World" # append new arg to the command
+
+    $hello[] # this will print "Hello World"
+
+    hi :: hello[:1] # hi is now echo "hello"
+    hy :: hello[1:] # hy is now echo "World"
+
+    hello-> # hello is now echo "hello"
+    hello<-["test", "1", "2"] # add 3 new args
+}
+
+### valid fn sinature ###
+# () arguments, must be included even if empty
+# || inputs, need not be included if empty
+# <> returns, need not be included if empty multiple return types
+#
+# example1 (a:int, b:bool)|in1, in2|<int, int> {}
+# example2 ()<int, string> {}
+# example3 ()|a, b| {}
+#
+
+### list of all tokens ###
+#
+# :        value assignment, type assignment
+# ::       create with type inferance
+# string   string type
+# int      int type
+# struct   struct type
+# fn       function type
+# []string string array type 
+# []int    int array type
+# []struct struct array type
+# []fn     fn array type ##### should I allow this
+# |        pipe, fn pipe delimiter, bitwise or
+# (        open paren
+# )        close paren
+# {        open bracket
+# }        close bracket
+# [        open square bracket
+# ]        close square bracket
+# <-       append to array
+# ->       pop off array
+# .        access struct element
+# +        add
+# ++       add one
+# -        minus
+# --       minus one
+# *        multiply
+# /        divide
+# %        mod
+# **       expoenential
+# &&       logical and
+# ||       logical or
+# !        logical not
+# &        bitwise and 
+# ^        bitwise xor
+# !        bitwise not
+# <        logical less than
+# <=       logical less than or equal to
+# >        logical greater than
+# >=       logical greater than or equal to
+# ==       equal check
+# !=       not equal check
+# $        exec command
+# #        comment
+# import   import command keyword
+# from     import command from keyword
+# as       import command as keyword
+#
+# identifiers are alpha numeric
+#
