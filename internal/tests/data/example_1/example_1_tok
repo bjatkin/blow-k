@@ -1,0 +1,368 @@
+[
+    {
+      "Value": "import",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 0
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 6
+    },
+    {
+      "Value": "echo",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 7
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 11
+    },
+    {
+      "Value": "as",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 12
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 14
+    },
+    {
+      "Value": "print",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 15
+    },
+    {
+      "Value": "\n",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 0,
+      "ColNumber": 20
+    },
+    {
+      "Value": "\n",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 1,
+      "ColNumber": 0
+    },
+    {
+      "Value": "#",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 0
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 1
+    },
+    {
+      "Value": "main",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 2
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 6
+    },
+    {
+      "Value": "is",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 7
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 9
+    },
+    {
+      "Value": "the",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 10
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 13
+    },
+    {
+      "Value": "entry",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 14
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 19
+    },
+    {
+      "Value": "point",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 20
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 25
+    },
+    {
+      "Value": "for",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 26
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 29
+    },
+    {
+      "Value": "any",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 30
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 33
+    },
+    {
+      "Value": "bk",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 34
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 36
+    },
+    {
+      "Value": "script",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 37
+    },
+    {
+      "Value": "\n",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 2,
+      "ColNumber": 43
+    },
+    {
+      "Value": "main",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 0
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 4
+    },
+    {
+      "Value": ":",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 5
+    },
+    {
+      "Value": "(",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 6
+    },
+    {
+      "Value": "args",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 7
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 11
+    },
+    {
+      "Value": "[",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 12
+    },
+    {
+      "Value": "]",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 13
+    },
+    {
+      "Value": "string",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 14
+    },
+    {
+      "Value": ")",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 20
+    },
+    {
+      "Value": ":",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 21
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 22
+    },
+    {
+      "Value": "{",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 23
+    },
+    {
+      "Value": "\n",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 3,
+      "ColNumber": 24
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 0
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 1
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 2
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 3
+    },
+    {
+      "Value": "$",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 4
+    },
+    {
+      "Value": "print",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 5
+    },
+    {
+      "Value": "[",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 10
+    },
+    {
+      "Value": "\"",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 11
+    },
+    {
+      "Value": "hello",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 12
+    },
+    {
+      "Value": "\"",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 17
+    },
+    {
+      "Value": ",",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 18
+    },
+    {
+      "Value": " ",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 19
+    },
+    {
+      "Value": "\"",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 20
+    },
+    {
+      "Value": "world",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 21
+    },
+    {
+      "Value": "\"",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 26
+    },
+    {
+      "Value": "]",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 27
+    },
+    {
+      "Value": "\n",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 4,
+      "ColNumber": 28
+    },
+    {
+      "Value": "}",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 5,
+      "ColNumber": 0
+    }
+  ]
