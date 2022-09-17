@@ -1,0 +1,6 @@
+import echo as print
+
+# main is the entry point for any bk script
+main :(args :[]string): {
+    $print["Hello", "World"]
+}
