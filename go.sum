@@ -1,5 +1,7 @@
 github.com/bjatkin/bear v0.0.0-20220819234518-001532d4c435 h1:K7zS7iLxixaNH+SBDA9QrktWxifnlRCdYV7Vzf/vqZk=
 github.com/bjatkin/bear v0.0.0-20220819234518-001532d4c435/go.mod h1:4t56LDu1SqjbCu3SxktcQlrrO0K1YMSvK1XuI3TNaqQ=
+github.com/bjatkin/bear v0.0.0-20220917042546-4aaab3050e61 h1:1wki/leVqQsIJLyqmnTWoaL4jF2YpBVUn9l6r/hwvHg=
+github.com/bjatkin/bear v0.0.0-20220917042546-4aaab3050e61/go.mod h1:4t56LDu1SqjbCu3SxktcQlrrO0K1YMSvK1XuI3TNaqQ=
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/inconshreveable/mousetrap v1.0.0 h1:Z8tu5sraLXCXIcARxBp/8cbvlwVa7Z1NHg9XEKhtSvM=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
