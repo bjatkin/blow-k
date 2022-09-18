@@ -33,11 +33,12 @@ func NewClient() *Client {
 }
 
 // Parse reads in a file and converts it into a token slice
-func (c *Client) Parse(fileName string) ([]Token, error) {
+func (c *Client) Tokenize(fileName string) ([]Token, error) {
 	src, err := os.ReadFile(fileName)
 	if err != nil {
 		return nil, bear.Wrap(err,
 			bear.WithErrType(errors.FileNotFound),
+			bear.WithExitCode(errors.TokenizerFailed),
 		)
 	}
 
