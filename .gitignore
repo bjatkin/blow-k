@@ -5,6 +5,7 @@
 *.so
 *.dylib
 blowk
+blow-k
 
 # Test binary, built with `go test -c`
 *.test
