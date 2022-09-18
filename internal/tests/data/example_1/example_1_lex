@@ -1,0 +1,170 @@
+[
+  {
+    "T": "ImportKeyword",
+    "Value": "import",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 0,
+    "ColNumber": 0
+  },
+  {
+    "T": "Identifyer",
+    "Value": "echo",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 0,
+    "ColNumber": 7
+  },
+  {
+    "T": "AsKeyword",
+    "Value": "as",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 0,
+    "ColNumber": 12
+  },
+  {
+    "T": "Identifyer",
+    "Value": "print",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 0,
+    "ColNumber": 15
+  },
+  {
+    "T": "SemiColon",
+    "Value": ";",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 0,
+    "ColNumber": 20
+  },
+  {
+    "T": "Comment",
+    "Value": " main is the entry point for any bk script",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 2,
+    "ColNumber": 1
+  },
+  {
+    "T": "SemiColon",
+    "Value": ";",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 2,
+    "ColNumber": 43
+  },
+  {
+    "T": "Identifyer",
+    "Value": "main",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 0
+  },
+  {
+    "T": "Colon",
+    "Value": ":",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 5
+  },
+  {
+    "T": "OpenParen",
+    "Value": "(",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 6
+  },
+  {
+    "T": "Identifyer",
+    "Value": "args",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 7
+  },
+  {
+    "T": "StringArrayType",
+    "Value": "[]string",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 12
+  },
+  {
+    "T": "CloseParen",
+    "Value": ")",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 20
+  },
+  {
+    "T": "Colon",
+    "Value": ":",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 21
+  },
+  {
+    "T": "OpenBrace",
+    "Value": "{",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 3,
+    "ColNumber": 23
+  },
+  {
+    "T": "Exec",
+    "Value": "$",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 4
+  },
+  {
+    "T": "Identifyer",
+    "Value": "print",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 5
+  },
+  {
+    "T": "OpenSquare",
+    "Value": "[",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 10
+  },
+  {
+    "T": "String",
+    "Value": "hello",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 12
+  },
+  {
+    "T": "Comma",
+    "Value": ",",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 18
+  },
+  {
+    "T": "String",
+    "Value": "world",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 21
+  },
+  {
+    "T": "CloseSquare",
+    "Value": "]",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 27
+  },
+  {
+    "T": "SemiColon",
+    "Value": ";",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 4,
+    "ColNumber": 28
+  },
+  {
+    "T": "CloseBrace",
+    "Value": "}",
+    "FileName": "data/example_1/example_1.bk",
+    "LineNumber": 5,
+    "ColNumber": 0
+  }
+]

@@ -12,7 +12,7 @@ func TestTokClient(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := tok.NewClient().Parse(tt.fileName)
+			got, err := tok.NewClient().Tokenize(tt.fileName)
 			if err != nil {
 				t.Fatalf("TokClient() unexpected error %v", err)
 			}
