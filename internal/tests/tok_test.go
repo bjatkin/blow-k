@@ -18,7 +18,7 @@ func TestTokClient(t *testing.T) {
 			}
 
 			if !reflect.DeepEqual(got, tt.wantTokens) {
-				t.Fatalf("TokClient() got = %v, wanted %v", got, tt.wantTokens)
+				t.Fatalf("TokClient() got and wanted tokens do not match\n%s", buildCompTable(got, tt.wantTokens))
 			}
 		})
 	}

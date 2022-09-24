@@ -100,7 +100,7 @@ func coalesceArrayTypes(tokens []Token) []Token {
 // combineTokens combines tok.Tokens into a single Token
 func combineTokens(t TokType, tokens []Token) Token {
 	if len(tokens) == 0 {
-		errors.Base.New(
+		errors.New(
 			bear.WithExitCode(errors.LexerFailed),
 			bear.WithTag("tokens", 0),
 		).Panic(true)

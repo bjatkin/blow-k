@@ -364,5 +364,11 @@
       "FileName": "data/example_1/example_1.bk",
       "LineNumber": 5,
       "ColNumber": 0
+    },
+    {
+      "Value": "\n",
+      "FileName": "data/example_1/example_1.bk",
+      "LineNumber": 5,
+      "ColNumber": 1
     }
   ]

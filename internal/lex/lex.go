@@ -122,7 +122,7 @@ func (m matcher) match(token tok.Token) bool {
 	}
 
 	// panic if str and reg are both unset
-	errors.Base.New(
+	errors.New(
 		bear.WithExitCode(errors.LexerFailed),
 		bear.WithErrType(errors.InvalidLexMatcher),
 	).Panic(true)

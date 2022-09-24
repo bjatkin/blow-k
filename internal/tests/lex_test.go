@@ -20,7 +20,7 @@ func TestLexClient(t *testing.T) {
 
 			got := lex.NewClient().Lex(tokens)
 			if !reflect.DeepEqual(got, tt.wantLexs) {
-				t.Fatalf("LexClient() = \n%v, but wanted \n%v", got, tt.wantLexs)
+				t.Fatalf("LexClient() got and wanted tokens do not match\n%s", buildCompTable(got, tt.wantLexs))
 			}
 		})
 	}
