@@ -7,6 +7,7 @@ var (
 	FileNotFound      = bear.NewType("File Not Found")
 	InvalidJSON       = bear.NewType("Invalid JSON")
 	InvalidLexMatcher = bear.NewType("Invalid Lex Matcher")
+	SyntaxError       = bear.NewType("Syntax Error")
 )
 
 // Exit Codes
@@ -14,6 +15,7 @@ const (
 	BuildFailed = iota + 1
 	TokenizerFailed
 	LexerFailed
+	ASTFailed
 )
 
 // base error template
