@@ -42,6 +42,7 @@ const (
 
 	ImportKeyword
 	AsKeyword
+	FromKeyword
 
 	StartComment
 	Comment
@@ -74,6 +75,7 @@ var tokenStrings = [...]string{
 	"Unknown",
 	"ImportKeyword",
 	"AsKeyword",
+	"FromKeyword",
 	"StartComment",
 	"Comment",
 	"String",
